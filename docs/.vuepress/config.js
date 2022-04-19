@@ -2,7 +2,7 @@ module.exports = {
     title: "AXIA's Blog",
     description: "简单VueExpress项目尝试",
     base:'/blog_deploy/',
-    dest:'/public',
+    dest:'./public',
     themeConfig: {
         nav: [
             {text: "首页", link: "/"},
