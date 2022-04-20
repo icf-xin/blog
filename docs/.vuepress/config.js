@@ -5,7 +5,7 @@ module.exports = {
     themeConfig: {
         nav: [
             {text: "首页", link: "/"},
-            { text: "分栏", link: "/guide/" },
+            {text: "分栏", link: "/guide/" },
             {text: "生活", link: "/acg/"}
         ],
         sidebar: {
