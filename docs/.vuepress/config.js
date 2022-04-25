@@ -3,15 +3,16 @@ module.exports = {
     description: "简单VueExpress项目尝试",
     dest:'./public',
     themeConfig: {
+        logo:"/roxy_crying.jpg",
         nav: [
             {text: "首页", link: "/"},
-            {text: "分栏", link: "/guide/" },
-            {text: "生活", link: "/acg/"}
+            {text: "分栏", link: "/md/guide/" },
+            {text: "生活", link: "/md/acg/"}
         ],
         sidebar: {
             // 侧边栏在 /guide/ 上
-            '/acg/':[
-              "/acg/",
+            '/md/acg/':[
+              "/md/acg/",
                 {
                     title: "二次元评论",
                     children:[
@@ -19,8 +20,8 @@ module.exports = {
                     ]
                 }
             ],
-            '/guide/': [
-                "/guide/",
+            '/md/guide/': [
+                "/md/guide/",
                 {
                     title:'面试没答上的题目',
                     children:[
