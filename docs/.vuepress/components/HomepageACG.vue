@@ -17,7 +17,7 @@ export default {
     name:"homepageACG",
     data(){
         return {
-            context_data: 11123,
+            context_data: {},
             page_list:[]
         }
     },

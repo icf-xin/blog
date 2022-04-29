@@ -17,7 +17,7 @@ export default {
     name:"homepageGuide",
     data(){
         return {
-            context_data: null,
+            context_data: {},
             page_list:[]
         }
     },
