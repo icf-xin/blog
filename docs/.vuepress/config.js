@@ -35,7 +35,10 @@ module.exports = {
                         'computer-web'
                     ]
                 },{
-                    title: '常见面试问题'
+                    title: '面试总结',
+                    children:[
+                        'huawei-interview-web.md'
+                    ]
                 }
             ]
         },
