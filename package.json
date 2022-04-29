@@ -13,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "vuepress": "^1.9.7"
+  },
+  "devDependencies": {
+    "v-dialogs": "^2.1.4"
   }
 }
