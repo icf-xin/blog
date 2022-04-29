@@ -24,7 +24,7 @@ export default {
     mounted(){
         this.context_data = context_data;
         for(let item in this.context_data['acg']){
-            this.page_list.push([path.slice(0, path.length-1)+".html", this.context_data['guide'][item]])
+            this.page_list.push([item.slice(0, item.length-1)+".html", this.context_data['guide'][item]])
         }
     }
 }
