@@ -1,2 +1,2 @@
-# 分类整理一下学习内容
-<time/>
+# 分栏
+<homepageGuide/>

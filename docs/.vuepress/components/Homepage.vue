@@ -29,7 +29,6 @@ export default {
   },
   mounted(){
     this.content_data = context_data;
-    console.log(this.content_data)
     for(let item in this.content_data){
       let data_item = []
       for(let path in this.content_data[item]){
